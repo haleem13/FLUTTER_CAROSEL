@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-
+// kk
 import '../../carousel.dart';
 
 class SlideSwipe extends StatelessWidget {
