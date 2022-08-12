@@ -35,7 +35,7 @@ class Carousel extends StatefulWidget {
   /// Defines the width of the Carousel
   final double width;
 
-  final List<Widget> children;
+  final List<ImageProvider> children;
 
   ///  callBack function on page Change
   final onPageChange;
