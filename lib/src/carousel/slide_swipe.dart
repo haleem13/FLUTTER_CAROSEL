@@ -81,7 +81,22 @@ class SlideSwipe extends StatelessWidget {
                               : 0.0)) *
                       (props.axis == Axis.vertical ? 1.0 : value),
                   width: props.width * value,
-                  child: props.children[index],
+                  child: Container(
+                    margin: EdgeInsets.only(bottom: 20),
+                    decoration: BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.5),
+                          spreadRadius: 2,
+                          blurRadius: 5,
+                          offset: Offset(0, 6), // changes position of shadow
+                        ),
+                      ],
+                      borderRadius: BorderRadius.circular(radius * 80),
+                      image: DecorationImage(
+                          image: props.children[index], fit: BoxFit.cover),
+                    ),
+                  ),
                   alignment: Alignment.center,
                 ),
               ),
