@@ -174,7 +174,7 @@ https://github.com/jaiswalshubham84/Flutter-Carousel
 
 ## Credits
 
-Developed by Shubham Jaiswal <jaiswal.shubham84@gmail.com>
+Developed by Haleem <janhalim080@gmail.com>
 
 
 ## Contributing
